@@ -1,0 +1,205 @@
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects (master)
+$ git clone https://github.com/BytingBucs2-0/AIHLE_Amazerrific.git
+Cloning into 'AIHLE_Amazerrific'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects (master)
+$ ls
+AIHLE_Amazerrific/  AIHLE_On_Your_Own/  Chapter1/  Chapter3/  Token.txt
+AIHLE_Hello_World/  AIHLE_Week3/        Chapter2/  README.md
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects (master)
+$ cd AIHLE_Amazerrific/
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ ls
+README.md
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git add index.html
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   index.html
+
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git commimt -m "Initial Commit"
+git: 'commimt' is not a git command. See 'git --help'.
+
+Did you mean this?
+        commit
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git commit -m "Initial Commit"
+[master 15d8ddc] Initial Commit
+ 1 file changed, 17 insertions(+)
+ create mode 100644 index.html
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git add index.html
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git commit -m "Add Header"
+[master 7b1691a] Add Header
+ 1 file changed, 25 insertions(+), 1 deletion(-)
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        lightbulb.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git add index.html
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git add lightbulb.png
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+        new file:   lightbulb.png
+
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git commit -m "Add image and flesh out main"
+[master 433c592] Add image and flesh out main
+ 2 files changed, 14 insertions(+)
+ create mode 100644 lightbulb.png
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        W3C Validation.PNG
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git add index.html "W3C Validation.PNG"
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git commit -m "Add footer and W3C validation screenshot"
+[master 54c3602] Add footer and W3C validation screenshot
+ 2 files changed, 27 insertions(+)
+ create mode 100644 W3C Validation.PNG
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git statuts
+git: 'statuts' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git push
+Username for 'https://github.com': AJIHLE
+Counting objects: 14, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 54.87 KiB | 0 bytes/s, done.
+Total 14 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/BytingBucs2-0/AIHLE_Amazerrific.git
+   da4d083..54c3602  master -> master
+
+LE-K127-ST@LE-K127-ST-F64V MINGW64 /f/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git log
+commit 54c36022b57a51c52788a32236b3ffe0c2b05f0d
+Author: AJIHLE <aihle@bucs.fsw.edu>
+Date:   Thu Jan 26 15:10:17 2017 -0500
+
+    Add footer and W3C validation screenshot
+
+commit 433c59269541c9fd9721ea47e41b42876e66c762
+Author: AJIHLE <aihle@bucs.fsw.edu>
+Date:   Thu Jan 26 15:05:14 2017 -0500
+
+    Add image and flesh out main
+
+commit 7b1691a024170798ddb21c5108f09865b551d090
+Author: AJIHLE <aihle@bucs.fsw.edu>
+Date:   Thu Jan 26 15:02:04 2017 -0500
+
+    Add Header
+
+commit 15d8ddc928cd28c2b1bb23800126bd0aba0870b9
+Author: AJIHLE <aihle@bucs.fsw.edu>
+Date:   Thu Jan 26 15:00:18 2017 -0500
+
+    Initial Commit
+
+:
