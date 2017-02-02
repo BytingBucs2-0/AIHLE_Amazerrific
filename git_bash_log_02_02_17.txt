@@ -236,3 +236,69 @@ Date:   Thu Feb 2 14:41:08 2017 -0500
 commit bb47e9be7c985df8cfc90df241129ded730e4245
 Author: AJIHLE <aihle@bucs.fsw.edu>
 Date:   Thu Feb 2 14:36:00 2017 -0500
+
+Alex@Alex-MegaPC MINGW64 /F/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Alex@Alex-MegaPC MINGW64 /F/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git add index.html style.css
+
+Alex@Alex-MegaPC MINGW64 /F/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git commit -m "Add Droid Sans and Ubuntu fonts to index.html and style.css"
+[master e4c2ae8] Add Droid Sans and Ubuntu fonts to index.html and style.css
+ 2 files changed, 9 insertions(+)
+
+Alex@Alex-MegaPC MINGW64 /F/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git push
+Username for 'https://github.com': AJIHLE
+Counting objects: 4, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 542 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/BytingBucs2-0/AIHLE_Amazerrific.git
+   2edba6b..e4c2ae8  master -> master
+
+Alex@Alex-MegaPC MINGW64 /F/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Alex@Alex-MegaPC MINGW64 /F/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git add index.html style.css
+
+Alex@Alex-MegaPC MINGW64 /F/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git commit -m "Add font styles, margin, and padding styles"
+[master 1e302fa] Add font styles, margin, and padding styles
+ 2 files changed, 102 insertions(+), 8 deletions(-)
+
+Alex@Alex-MegaPC MINGW64 /F/Spring 2017/Alex's Code/HTML Projects/AIHLE_Amazerrific (master)
+$ git push
+Username for 'https://github.com': AJIHLE
+Counting objects: 4, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 907 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/BytingBucs2-0/AIHLE_Amazerrific.git
+   e4c2ae8..1e302fa  master -> master
