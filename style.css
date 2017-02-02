@@ -41,5 +41,34 @@ header nav {
 main {
 
 	background: white;
+	overflow: auto;
 
+}
+
+.left {
+
+	float: left;
+	width: 570px;
+
+}
+
+.right {
+
+	float: right;
+	width: 285px;
+
+}
+
+.contact {
+
+	float: left;
+	width: 570px;
+
+}
+
+.sitemap {
+
+	float: right;
+	width: 285px;
+	
 }
