@@ -10,6 +10,13 @@ header, main, footer {
 
 }
 
+.container {
+
+	max-width: 855px;
+	margin: auto;
+
+}
+
 header {
 
 	background: white;
